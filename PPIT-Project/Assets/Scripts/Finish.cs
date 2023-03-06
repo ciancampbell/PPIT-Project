@@ -11,6 +11,7 @@ public class Finish : MonoBehaviour
      private void OnTriggerEnter (Collider other)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        GameObject.Find("Ball").SendMessage("Finish");
     
     }
 
