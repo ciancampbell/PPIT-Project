@@ -9,7 +9,7 @@ public class resetLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("This scene has been loaded");
+        
     }
 
     // Update is called once per frame
@@ -20,6 +20,6 @@ public class resetLevel : MonoBehaviour
 
     public void ResetScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //Calls the index of the current scene. ( Recalls the Start() )
     }
 }
