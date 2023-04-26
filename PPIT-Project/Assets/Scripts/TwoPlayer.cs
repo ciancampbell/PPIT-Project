@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TwoPlayers : MonoBehaviour
+public class TwoPlayer : MonoBehaviour
 {
     public void PlayGame()
     {
