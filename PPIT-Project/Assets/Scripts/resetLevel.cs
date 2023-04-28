@@ -21,5 +21,6 @@ public class resetLevel : MonoBehaviour
     public void ResetScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //Calls the index of the current scene. ( Recalls the Start() )
+        print("Button is working");
     }
 }
